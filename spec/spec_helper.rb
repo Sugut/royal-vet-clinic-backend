@@ -2,6 +2,7 @@ ENV['RACK_ENV'] ||= 'test'
 require_relative "../config/environment"
 require "sinatra/activerecord/rake"
 
+
 RSpec.configure do |config|
   config.include Rack::Test::Methods
 
