@@ -34,12 +34,25 @@ class ApplicationController < Sinatra::Base
       breed: params[:breed],
       age: params[:age],
       weight: params[:weight],
-      owner_id: params[owner_id],
-      animal_type: params[animal_type],
-      sex: params[sex]
+      owner_id:params[:owner_id],
+      animal_type:params[:animal_type],
+      sex:params[:sex]
     )
     patient.to_json
   end
+
+  patch '/patients/:id' do
+    patient = Patient.find(params[:id])
+    review.update(
+      name:params[:name],
+      breed:params[:breed],
+      age:params[:age],
+      weight:params[:weight],
+      owner_id:params[:owner_id],
+      animal_type:params[:animal_type],
+      sex:params[:sex]
+    )
+
 
   get '/owners' do
     owners = Owner.all.order(:id)
