@@ -43,7 +43,7 @@ class ApplicationController < Sinatra::Base
 
   patch '/patients/:id' do
     patient = Patient.find(params[:id])
-    review.update(
+    patient.update(
       name:params[:name],
       breed:params[:breed],
       age:params[:age],
