@@ -1,3 +1,4 @@
+
 puts "🌱 Seeding spice"
 
 Veterinarian.create(name: "Dane Boxer", phone_number: "(973)845-7230")

@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_11_09_213408) do
+ActiveRecord::Schema.define(version: 2022_11_09_221726) do
 
   create_table "appointments", force: :cascade do |t|
     t.integer "veterinarian_id"
@@ -29,7 +29,7 @@ ActiveRecord::Schema.define(version: 2022_11_09_213408) do
     t.string "name"
     t.string "breed"
     t.integer "age"
-    t.integer "weight"
+    t.string "weight"
     t.integer "owner_id"
     t.string "animal_type"
     t.string "sex"

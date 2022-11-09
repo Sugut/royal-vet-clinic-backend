@@ -83,7 +83,7 @@ class ApplicationController < Sinatra::Base
 
   get '/appointments/:id' do
     appts = Appointment.find(params[:id])
-    appts.to_json
+    appts.to_json(include: [:patient, :veterinarian])
   end
 
   post '/appointments' do
