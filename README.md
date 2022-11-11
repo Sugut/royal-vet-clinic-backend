@@ -15,6 +15,14 @@ It gives the users various resources for example one can access the following:-
 
 
 
+## Contributing
+Contributions are always welcome!
+
+See (Contributing.md) for ways to get started.
+
+Please adhere to this project's code of conduct.
+
+
 
 
 ## Requirements
