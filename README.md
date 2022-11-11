@@ -40,7 +40,7 @@ here are our github links
 ## Installation
 Here's a brief intro about what a developer must do in order to start developing the project further:
 
-git clone (https://github.com/Sugut/frontend-royal-vet)
+git clone (https://github.com/Sugut/royal-vet-clinic-backend)
 
 cd frontend-royal cd royal-vet-clinic
 
