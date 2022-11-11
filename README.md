@@ -22,6 +22,20 @@ See (Contributing.md) for ways to get started.
 
 Please adhere to this project's code of conduct.
 
+## 🚀 About us
+Hi, There 👋
+
+We are a group of junior developers...
+
+here are our github links
+
+ -https://github.com/Sugut
+
+ -https://github.com/ngisah
+
+ -https://github.com/SERON19
+
+ -https://github.com/ElvisWG
 
 
 
