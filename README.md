@@ -1,3 +1,22 @@
+# ROYAL_CLINIC-FRONTEND 
+
+## Project Description
+is an application we created as a group for animal hospitals in which hospital administrators can keep track of the patients and their appointments.
+
+It gives the users various resources for example one can access the following:-
+
+1.Search for patient
+
+2.Access patient list
+
+3.Add new patient
+
+4.Make new appointments
+
+
+
+
+
 ## Requirements
 
 For this project, you must:
