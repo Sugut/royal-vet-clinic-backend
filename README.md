@@ -37,6 +37,16 @@ here are our github links
 
  -https://github.com/ElvisWG
 
+## Installation
+Here's a brief intro about what a developer must do in order to start developing the project further:
+
+git clone (https://github.com/Sugut/frontend-royal-vet)
+
+cd frontend-royal cd royal-vet-clinic
+
+
+## License
+See the License in (LICENSE.md) to get started
 
 
 ## Requirements
