@@ -42,7 +42,15 @@ Here's a brief intro about what a developer must do in order to start developing
 
 git clone (https://github.com/Sugut/royal-vet-clinic-backend)
 
-cd frontend-royal cd royal-vet-clinic
+-Fork and Clone repository
+
+-bundle install
+
+-run rake db:migrate
+
+-run rake db:seed
+
+-run rake server
 
 
 ## License
@@ -54,7 +62,7 @@ See the License in (LICENSE.md) to get started
 For this project, you must:
 
 - Use Active Record to interact with a database.
-- Have at least two models with a one-to-many relationship.
+- Have at least three models with a one-to-many relationship.
 - At a minimum, set up the following API routes in Sinatra:
   - create and read actions for both models
   - full CRUD capability for one of the models
