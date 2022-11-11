@@ -1,4 +1,4 @@
-class CreateVeterenarians < ActiveRecord::Migration[6.1]
+class CreateVeterinarians < ActiveRecord::Migration[6.1]
   def change
     create_table :veterinarians do |t|
       t.string :name
