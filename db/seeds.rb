@@ -14,3 +14,7 @@ Patient.create(name:"James", breed:"butterfly fish", age:"12",weight:12, animal_
 
 Veterinarian.create(name:"Edwin", phone_number:"(545)765-5456")
 Veterinarian.create(name:"Elvis", phone_number:"(987)224-4455")
+Veterinarian.create(name:"Lizzy", phone_number:"(342)265-2672")
+Veterinarian.create(name:"Keisha", phone_number:"(987)965-9886")
+Veterinarian.create(name:"Cole", phone_number:"(987)436-6526")
+
